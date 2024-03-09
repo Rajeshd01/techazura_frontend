@@ -1,0 +1,141 @@
+.banner-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../Assets/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner {
+    width: 100vw;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(50%);
+
+}
+.banner div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.banner span {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.banner-logo {
+    color: rgb(244, 244, 244);
+    font-size: 4rem;
+    font-family: "Monoton", sans-serif;
+    font-weight: lighter;
+    animation-name: text;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    transition: ease-in;
+
+}
+
+.banner-logo span {
+    color: rgb(161, 72, 244);
+    font-family: "Monoton", sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    animation-name: logo;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    transition: 5s;
+}
+
+.banner-date {
+    color: rgba(227, 0, 83, 0.915);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.banner-text {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: lighter;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: ease-in;
+}
+
+  @keyframes text {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @keyframes logo {
+    0% {
+     color: rgb(241, 72, 72);
+    }
+    20% {
+        color: rgb(187, 22, 0);
+    }
+    50% {
+        color: rgb(244, 104, 185);
+
+    }
+    75% {
+        color: rgb(217, 61, 241);
+
+    }
+    100% {
+        color: rgb(128, 99, 233);
+
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .banner-container {
+        width: 100vw;
+        height: 80vh;
+        background-position: left;
+    }
+
+    .banner-logo {
+        font-size: 2.2rem;
+    }
+
+    .banner-logo span {
+     
+        font-size: 2.2rem;
+    
+    }
+
+    .banner-date {
+        font-size: 1.2rem;
+        font-weight: bold;
+      
+    }
+    
+    .banner-text {
+        font-size: 1.5rem;
+    
+    }
+    
+} 

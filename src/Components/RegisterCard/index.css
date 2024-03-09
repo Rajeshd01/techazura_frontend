@@ -1,0 +1,25 @@
+.register-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+}
+.register-card-container p{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.register-card-container div{
+    background-color: black;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.489);
+    gap: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 12px 12px 12px rgb(106, 106, 106);
+}

@@ -1,0 +1,59 @@
+.model-container {
+    padding: 2rem;
+}
+
+.model-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.model-form-container div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.model-form-container label,
+input {
+
+    color: black;
+}
+
+.model-form-container input {
+    height: 2rem;
+
+
+}
+
+.model-form-container button {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    background-color: rgba(227, 0, 83, 0.915);
+}
+
+
+.model-form-checkbox input {
+    height: 0.8rem;
+}
+
+.model-form-checkbox {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .model-form-container input {
+        height: 2rem;
+    
+    }
+    
+
+}

@@ -1,0 +1,73 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+.footer-logo {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-family: "Monoton", sans-serif;
+  font-weight: lighter;
+}
+
+.footer-logo span {
+  color: rgb(161, 72, 244);
+  font-family: "Monoton", sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.footer-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.map {
+  overflow: hidden;
+  outline: none;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30.25%;
+  position: relative;
+}
+.map iframe {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.map iframe:active {
+  outline: none;
+  border: none;
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+  .map {
+    width: 100%;
+    padding-bottom: 70.25%;
+  }
+}

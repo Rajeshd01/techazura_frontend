@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(187, 206, 223);
+  font-family: "Roboto", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #aa0ec2;
+
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #880bb2c2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9007c7;
+}
